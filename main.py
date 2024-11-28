@@ -2,7 +2,7 @@ import unittest
 from rectangle import area, perimeter
 class RectangleTestCase(unittest.TestCase):
     def test_zero_mul(self):
-        resa = area(10, 1)
+        resa = area(10, 0)
         resp = perimeter(10, 0)
         self.assertEqual(resa, 0)
         self.assertEqual(resp, 20)
