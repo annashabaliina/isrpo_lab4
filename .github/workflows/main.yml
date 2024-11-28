@@ -21,7 +21,7 @@ jobs:
         python-version: ${{ matrix.python-version }}  
     - name: Unittest my file  
       run: |  
-        python -m unittest main.py
+        python -m unittest main1.py
   window-latest:
     runs-on: windows-latest
     strategy:
@@ -37,4 +37,4 @@ jobs:
         python-version: ${{ matrix.python-version }}  
     - name: Unittest my file  
       run: |  
-        python -m unittest main.py 
+        python -m unittest main1.py 
